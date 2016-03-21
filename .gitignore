@@ -9,6 +9,10 @@ Thumbs.db
 .rbenv-version
 .rvmrc
 
+.idea/
+**/**/.idea/
+*/*/.idea/
+
 .idea/*
 **/**/.idea/*
 */*/.idea/*

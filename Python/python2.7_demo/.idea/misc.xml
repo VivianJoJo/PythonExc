@@ -27,7 +27,7 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
-  <component name="IdProvider" IDEtalkID="9BB18FED6E5DA7E8E095E1B71BF64448" />
+  <component name="IdProvider" IDEtalkID="BFF5B3A924D8EABE17F782B4CAB1D459" />
   <component name="InspectionProjectProfileManager">
     <profiles>
       <profile version="1.0" is_locked="false">
@@ -202,7 +202,7 @@
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>Python 3.4.3 (/usr/local/bin/python3)</last-edited>
+          <last-edited>Python 2.7.10 (/usr/bin/python2.7)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
