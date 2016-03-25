@@ -24,7 +24,7 @@ class SpiderMain(object):
             
                 count = count + 1
                 
-                if count == 1000:
+                if count == 20:
                     break
             except:
                 print 'craw url fail'
