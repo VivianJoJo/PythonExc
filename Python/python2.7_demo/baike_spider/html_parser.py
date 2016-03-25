@@ -1,5 +1,5 @@
 #coding utf8
-from bs4 import BeautifulSoup
+import bs4
 import re
 import urlparse
 
@@ -24,6 +24,7 @@ class HtmlParser(object):
         res_data['url'] = page_url
         #<dd class="lemmaWgt-lemmaTitle-title"> <h1>Python</h1>
         res_data['h1'] = soup.find('dd', class_='lemmaWgt-lemmaTitle-title').get_text()
+
         #<div class="lemma-summary" label-module="lemmaSummary">
         res_data['summary'] = soup.find('div', class_='lemma-summary').get_text()
         
@@ -34,7 +35,7 @@ class HtmlParser(object):
         if page_url is None or html_cont is None:
             return
         
-        soup = BeautifulSoup(html_cont, 'html.parser', from_encoding='utf-8')
+        soup = bs4.BeautifulSoup(html_cont, 'html.parser', from_encoding='utf-8')
         
         new_urls = self._get_new_urls(page_url, soup)
         

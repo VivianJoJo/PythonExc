@@ -5,7 +5,7 @@ print('I\'m ok.')
 print('\\\n\\')
 
 #如果字符串内部有很多换行，用\n写在一行里不好阅读，为了简化，Python允许用'''...'''的格式表示多行内容
->>> print('''line1
+>>> print('''line1s = 
 ... line2
 ... line3''')
 
