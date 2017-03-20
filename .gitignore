@@ -16,3 +16,10 @@ Thumbs.db
 .idea/*
 **/**/.idea/*
 */*/.idea/*
+
+*.pyc
+
+../.DS_Store
+.DS_Store
+
+
