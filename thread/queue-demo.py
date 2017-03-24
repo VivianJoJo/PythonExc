@@ -5,7 +5,7 @@ def write(q):
     print('Process to write: %s' % os.getpid())
     for value in ['A', 'B', 'C']:
         print('Put %s to queue...' % value)
-        # q.put(value)
+        q.put(value)
         time.sleep(random.random())
 
 def read(q):

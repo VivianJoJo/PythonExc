@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# with_example01.py
 
 class Sample:
     def __enter__(self):

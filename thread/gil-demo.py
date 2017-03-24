@@ -1,3 +1,5 @@
+# Global Interpreter Lock
+
 import threading, multiprocessing
 
 def loop():
